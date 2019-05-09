@@ -1,0 +1,8 @@
+<div *ngIf ="newDetail">
+  new-detail works!
+  {{newDetail.title}}
+  <!-- <input [(ngModel)] = "newDetail.title" /> -->
+  <input [(ngModel)]="newDetail.title" placeholder="name"/>
+  <button (click) = "clickToBackLocation()">QUay Lại quá khứ thôi man :) </button>
+  <button (click) = "updateThis()"> Update đê</button>
+</div>
